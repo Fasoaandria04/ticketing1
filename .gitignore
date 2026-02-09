@@ -1,0 +1,29 @@
+# Ignore session files and temporary runtime files
+files/_sessions/
+files/_sessions/*
+
+# Ignore vendor and node modules
+vendor/
+node_modules/
+
+# Environment and logs
+.env
+*.log
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# PHP temp/cache
+tmp/
+cache/
+
+# Composer
+composer.phar
+
+# PHPStorm
+*.iml
+
+# Misc
+.sass-cache/
